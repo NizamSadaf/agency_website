@@ -1,0 +1,244 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	font-family: sans-serif;
+}
+/*--------NAVBAR---------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	padding:0 !important;
+	background-image: linear-gradient(to right, #33cc33 ,  #5cd65c)
+}
+.navbar-brand img
+{
+	height:50px;
+	width: 170px;
+	padding-left:20px; 
+}
+.navbar-nav li
+{
+	padding: 0px 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight:600;
+}
+.fa-bars
+{
+	color:#fff ;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*------BANNER-----*/
+#banner
+{
+	background-image:linear-gradient(to right, #33cc33 ,  #5cd65c);
+	color:#fff;
+	padding-top:5%;
+}
+.promo-title
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 80px;
+}
+#banner img
+{
+	border-radius:10%;
+}
+.play-btn
+{
+	width:45px;
+	margin:20px;
+}
+#banner a
+{
+	text-decoration: none;
+	color:#fff;
+}
+/*--------SERVICE SECTION--------*/
+#services
+{
+	padding:80px 0;
+}
+.service-img
+{
+	width: 100px;
+  margin-top:20px;
+}
+.title::before
+{
+	content: '';
+	background-color: #5cd65c;
+	width: 200px;
+	height: 5px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    transform:translateY(63px);
+}
+.title::after
+{
+	content: '';
+	background-color: #5cd65c;
+	width: 50px;
+	height: 10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    transform:translateY(8px);
+}
+/*BEFORE AFTER EKSATE KARON OVERLAPPING LINE DEWAR JONNO WHAT TO DO ER NICHE*/
+#services .btn-primary
+{
+	padding:8px 25px;
+	box-shadow: none;
+	border:none;
+	background-image:linear-gradient(to right, #33cc33 ,  #5cd65c);
+	border-radius:20px;
+}
+/*---------ABOUT US----------*/
+#about-us
+{
+	background: #f8f9fa;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#about-us h4
+{
+	margin-top:50px;
+	padding-left:5%;
+	font-size:30px;
+    font-weight:600;
+}
+.ul
+{
+	padding-left:50px;
+	font-size:20px;
+	font-weight:400;
+}
+.about-us-image
+{
+	margin:50px;
+	width:400px;
+	height:200px;
+}
+/*-------TESTIMONIALS------*/
+#testimonials
+{
+	background:#fff;
+	margin:100px 0;
+}
+.testimonials
+{
+	border-left: 5px solid #33cc33;
+	margin: 80px 0;
+
+}
+.user-details
+{
+	display: inline-block;	
+}
+.testimonials img
+{
+	
+	width:60px;
+	height:60px;
+	border-radius:50%;
+}
+/*---------SOCIAL MEDIA-----------*/
+#social-media
+{
+	background-color: #f8f9fa;
+	padding:100px 0;
+}
+#social-media p
+{
+	font-size:40px;
+	font-weight:600;
+	margin-left:30px;
+}
+.social-icon img
+{
+	width:60px;
+	transition: 0.5s;
+	margin:10px;
+}
+.social-icon a:hover img
+{
+	transform:translateY(-10px);
+}
+/*-----------FOOTER BOX----------*/
+#footer
+{
+	background-image: linear-gradient(to right, #33cc33 ,  #5cd65c);
+	
+}
+.footer-box
+{
+	margin-top: 50px;
+	padding:20px;
+}
+.footer-box img
+{
+	margin-top: 2px;
+	margin-left:50px;
+     height:100px;
+	width:200px;
+	border-radius:50%;
+}
+.footer-box p
+{
+	font-size: 20px;
+	margin-top:10px;
+	margin-left:50px;
+	color:#fff;
+}
+.footer-box .fa
+{
+	width:20px;
+	margin:5px;
+}
+.footer-box .btn-primary
+{
+	margin-top:5px;
+	border-radius:2px;
+	background-image: linear-gradient(to right, #33a8cc ,  #c85cd6);
+	color:#fff;
+	box-shadow:none !important;
+	border:none;
+}
+.footer-box .form-control
+{
+	max-width:250px;
+	box-shadow: none;
+}
+hr
+{
+	background-color: #fff;
+}
+.copyright
+{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	color:#fff;
+}
